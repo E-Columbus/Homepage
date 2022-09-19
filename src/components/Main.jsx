@@ -7,15 +7,13 @@ const Main = () => {
     <div id="bg">
         <nav class="menu">
         <div class="menu-logo">
-        <h1> CryptoCoders </h1>
+        <img src="../src/assets/Logo.jpg" width="170" height="115"></img>
     </div>
 
     <div class="menu-links">
         <ul>
-            <li><a href="#"> home </a></li>
-            <li><a href="#"> about </a></li>
-            <li><a href="#"> services </a></li>
-            <li><a href="#"> contact </a></li>
+            <li><a href="#"> Login </a></li>
+            <li><a href="#"> Register </a></li>
         </ul>
     </div>
     </nav>
@@ -27,7 +25,9 @@ const Main = () => {
                 <p>To CryptoCoders</p>
             <div id="overlay"></div>
         </div>
-    <nav class="menu2">Copyright 2022</nav>
+        <nav class="menu2"><img src="../src/assets/Logo1.png" width="200" height="100"></img></nav>
+        <nav class="menu3"><img src="../src/assets/Logo2.png" width="300" height="100"></img></nav>
+        <nav class="menu4"><img src="../src/assets/Logo3.png" width="100" height="85"></img></nav>
 </div>
     )
 }
